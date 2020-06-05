@@ -27,11 +27,11 @@ def take_bath
 end
 
 def happy? 
-   @happiness > 7 ? true:false
+   @happiness > 7 ? true : false
 end
 
 def clean?
-    @hygiene > 7 ? true:false
+    @hygiene > 7 ? true : false
 end
 
 def get_paid(salary)
