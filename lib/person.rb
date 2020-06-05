@@ -26,12 +26,8 @@ def take_bath
     return "♪ Rub-a-dub just relaxing in the tub ♫"
 end
 
-def happy?
-    if @happiness > 7
-        true
-    else
-        false
-    end
+def happy? 
+   @happiness > 7 ? 
 end
 
 def clean?
