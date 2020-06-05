@@ -27,7 +27,7 @@ def take_bath
 end
 
 def happy? 
-   @happiness > 7 ? true : false
+   @happiness > 7 ? true:false
 end
 
 def clean?
